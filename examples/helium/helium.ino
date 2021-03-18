@@ -8,7 +8,7 @@
 * 
 */
 
-#include <MKRWAN.h>
+#include <MKRWAN_v2.h>
 
 LoRaModem modem;
 
