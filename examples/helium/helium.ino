@@ -161,14 +161,14 @@ void myPrintAll(){
   Serial.println("Your device EUI is: " + String(modem.deviceEUI()) );
   Serial.println("getDataRate: " + String(modem.getDataRate()) );
   Serial.println("getADR: " + String(modem.getADR()) );
-  Serial.println("getRX2Freq: " + String(modem.getRX2Freq()) );
-  Serial.println("getRX2DR(): " + String(modem.getRX2DR()) );
+ // Serial.println("getRX2Freq: " + String(modem.getRX2Freq()) );
+ // Serial.println("getRX2DR(): " + String(modem.getRX2DR()) );
    
   Serial.println("getDevAddr: " + String(modem.getDevAddr()) );
   Serial.println("getNwkSKey: " + String(modem.getNwkSKey()) );
   Serial.println("getAppSKey: " + String(modem.getAppSKey()) );
-  Serial.println("getFCU: " + String(modem.getFCU()) );
-  Serial.println("getFCD: " + String(modem.getFCD()) );
+ // Serial.println("getFCU: " + String(modem.getFCU()) );
+ // Serial.println("getFCD: " + String(modem.getFCD()) );
 
   
     }
