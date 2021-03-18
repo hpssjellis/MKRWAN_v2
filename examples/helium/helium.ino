@@ -1,4 +1,3 @@
-
 /*
 * Lorawan continuous attempt to connect
 * by @Rocksetta
@@ -9,7 +8,7 @@
 * 
 */
 
-#include <MKRWAN_v2.h>
+#include <MKRWAN.h>
 
 LoRaModem modem;
 
@@ -20,8 +19,8 @@ bool myConnected = false;
 // Best to use an arduino_secrets.h file but easier here
 
 // Note: Don't let Helium generate your Device EUI, That must come from each arduino device. See serial printout
-String appEui = "A66E1DA8901AD596";    // get from https://console.helium.com/devices
-String appKey = "E9E9ABFBB779365C2B5604F822F00F1F";  // you have to change this from https://console.helium.com/devices
+String appEui = "111111111111111";    // get from https://console.helium.com/devices
+String appKey = "2222222222222222222222222";  // you have to change this from https://console.helium.com/devices
 
 void setup() {
     
@@ -173,4 +172,3 @@ void myPrintAll(){
 
   
     }
- 
